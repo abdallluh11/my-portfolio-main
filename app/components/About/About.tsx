@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import PageHero from "../components/common/PageHero";
+// import PageHero from "../components/common/PageHero";
+import PageHero from "../common/PageHero";
 
 export const metadata: Metadata = {
   title: "About | Abdalluh Portfolio",
