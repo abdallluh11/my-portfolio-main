@@ -33,14 +33,5 @@ export const projects = [
     github: "https://github.com/abdallluh11/linkr-social-app",
     live: "https://abdallluh11.github.io/linkr-social-app/linkr-social-app/home.html",
   },
-  {
-    id: 4,
-    title: "Linkr Social App",
-    category: "Frontend",
-    image: "/images/p4.jpg",
-    description: "...",
-    tech: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/abdallluh11/linkr-social-app",
-    live: "https://abdallluh11.github.io/linkr-social-app/linkr-social-app/home.html",
-  },
+
 ];
