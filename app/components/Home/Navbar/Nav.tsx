@@ -58,7 +58,7 @@ const Nav = ({ openNav }: Props) => {
         <div className="flex items-center space-x-4">
           {/* CV button */}
           <a
-            href="/Abdalluh_Elswye.pdf"
+            href="/Abdalluh_Elsawy.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-3.5 text-sm cursor-pointer rounded-lg bg-blue-800 hover:bg-blue-900 transition-all duration-300 text-white flex items-center space-x-2"

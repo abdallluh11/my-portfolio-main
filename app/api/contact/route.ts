@@ -13,10 +13,12 @@ export async function POST(req: Request) {
           success: false,
           message: "Please fill all required fields",
         },
-        { status: 400 }
+        { status: 400 },
       );
     }
 
+    console.log("EMAIL_USER:", process.env.EMAIL_USER);
+    console.log("EMAIL_PASS:", process.env.EMAIL_PASS ? "Exists" : "Missing");
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
@@ -61,7 +63,7 @@ export async function POST(req: Request) {
         success: false,
         message: "Internal Server Error",
       },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }
